@@ -1,0 +1,22 @@
+body{
+	height: 100%;
+	background-color:#7e9db8;
+}
+p{
+	color: white;
+}
+.navbar .nav > li > a{
+	color: #337ab7;
+}
+.navbar .nav > li > a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #337ab7;
+}
+.mainView{
+	padding-left:3%;
+	padding-right:3%;
+}
+.row{
+	margin-bottom:30px;
+}
