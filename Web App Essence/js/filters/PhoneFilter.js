@@ -9,9 +9,11 @@ app.filter('PhoneFilter',function(){
 		var filtered = [];
 		for (var i = 0; i < items.length; i++) {
 			var item =items[i];
-            if(item.model.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1|| 
-			item.make.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1|| 
-			item.name.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1){
+            if (
+            	item.model.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1 || 
+            	item.make.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1 || 
+            	item.name.toLowerCase().indexOf(stringToSearch.toLowerCase())!=-1
+            	) {
 					filtered.push(item);
 				}
 			}
